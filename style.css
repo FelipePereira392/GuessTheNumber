@@ -15,7 +15,7 @@ body{
 /*Principal*/
 
 #main{
-    background-color: rgb(115, 209, 131);
+    background: linear-gradient(to top, rgb(113, 197, 113), rgb(74, 180, 74));
     width: 450px;
     height: 480px;
     margin: auto;
