@@ -7,7 +7,7 @@ let attempts = 0
 //Function NewRandomNumber
 
 const NewRandomNumber = () =>{
-    randomNumber = Math.floor(Math.random() * 100) + 1
+    randomNumber = Math.floor(Math.random() * 500) + 1
 }
 NewRandomNumber()
 
@@ -16,8 +16,8 @@ NewRandomNumber()
 document.querySelector('#try').addEventListener('click', () => {
     let value = Number(input.value)
     input.value = ''
-    if (value>100 || value<0){
-        Alert.innerHTML = 'Put a valid number (0-100)'
+    if (value>500 || value<0){
+        Alert.innerHTML = 'Put a valid number (0-500)'
     }else{
         Attempt.innerHTML = `Attempts: ${attempts += 1}`
         if (value > randomNumber){
